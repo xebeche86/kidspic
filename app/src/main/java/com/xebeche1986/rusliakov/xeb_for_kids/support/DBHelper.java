@@ -1,4 +1,4 @@
-package com.example.vadik.noyify;
+package com.xebeche1986.rusliakov.xeb_for_kids.support;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,6 +7,7 @@ import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.xebeche1986.rusliakov.xeb_for_kids.R;
 
 
 public  class DBHelper extends SQLiteOpenHelper {

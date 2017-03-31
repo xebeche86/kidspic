@@ -1,45 +1,45 @@
-package com.example.vadik.noyify;
+package com.xebeche1986.rusliakov.xeb_for_kids.activities;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.BitmapShader;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.graphics.Shader;
 import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.content.res.ResourcesCompat;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 
-import com.makeramen.roundedimageview.RoundedImageView;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.xebeche1986.rusliakov.xeb_for_kids.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static android.R.attr.radius;
-import static android.R.attr.width;
-import static com.example.vadik.noyify.R.attr.height;
-
-public class ActivityB extends AppCompatActivity {
+public class ActivityB extends Activity {
     ImageView imageView;
     int duration;
-
+  //  private InterstitialAd interstitialAd;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_b);
+
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//
+//        interstitialAd = new InterstitialAd(ActivityB.this);
+//        interstitialAd.setAdUnitId(getString(R.string.Intersitial_Ad));
+//        interstitialAd.loadAd(adRequest);
+//
 
 
        imageView = (ImageView) findViewById(R.id.image_actB);
@@ -81,7 +81,60 @@ public class ActivityB extends AppCompatActivity {
             case "a11":
                 setDrawableIV(R.drawable.img_27);
                 break;
-
+            case "a12":
+                setDrawableIV(R.drawable.img_8);
+                break;
+            case "a13":
+                setDrawableIV(R.drawable.img_23);
+                break;
+            case "a14":
+                setDrawableIV(R.drawable.img_6);
+                break;
+            case "a15":
+                setDrawableIV(R.drawable.img_5);
+                break;
+            case "a16":
+                setDrawableIV(R.drawable.podarki_);
+                break;
+            case "a17":
+                setDrawableIV(R.drawable.pic_2);
+                break;
+            case "a18":
+                setDrawableIV(R.drawable.pirat1);
+                break;
+            case "a19":
+                setDrawableIV(R.drawable.musicants_);
+                break;
+            case "a20":
+                setDrawableIV(R.drawable.animals_for1);
+                break;
+            case "a21":
+                setDrawableIV(R.drawable.img_16);
+                break;
+            case "a22":
+                setDrawableIV(R.drawable.img_13);
+                break;
+            case "a23":
+                setDrawableIV(R.drawable.img_12);
+                break;
+            case "a24":
+                setDrawableIV(R.drawable.img_11);
+                break;
+            case "a25":
+                setDrawableIV(R.drawable.img_19);
+                break;
+            case "a26":
+                setDrawableIV(R.drawable.img_17);
+                break;
+            case "a27":
+                setDrawableIV(R.drawable.img_7);
+                break;
+            case "a28":
+                setDrawableIV(R.drawable.na_dereve);
+                break;
+            case "a29":
+                setDrawableIV(R.drawable.img_22);
+                break;
 
         }
         if (difficulty.equals("a")) {
@@ -109,11 +162,6 @@ public class ActivityB extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        
-    }
 
     private void setDrawableIV(int drawableIV){
        Bitmap mbitmap = ((BitmapDrawable)ContextCompat.getDrawable(this,drawableIV)).getBitmap();
@@ -126,6 +174,11 @@ public class ActivityB extends AppCompatActivity {
         imageView.setImageBitmap(imageRounded);
 
     }
+//    public void displayAd() {
+//        if (interstitialAd.isLoaded()) {
+//            interstitialAd.show();
+//        }
+//    }
 
 
 }
