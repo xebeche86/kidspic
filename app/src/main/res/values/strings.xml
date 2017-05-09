@@ -1,0 +1,1760 @@
+<resources>
+    <string name="app_name">noyify</string>
+    <string name="easy">Любопытный</string>
+    <string name="medium">Знаток</string>
+    <string name="hard">Эксперт</string>
+    <string name="Intersitial_Ad">ca-app-pub-3709730817967165/2624957338</string>
+
+
+    <string-array name="text_difficultyA">
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+    </string-array>
+
+
+    <string-array name="image_mark_recycler_b">
+        <item>a11</item>
+        <item>a12</item>
+        <item>a13</item>
+        <item>a14</item>
+        <item>a15</item>
+        <item>a16</item>
+        <item>a17</item>
+        <item>a18</item>
+        <item>a19</item>
+        <item>a20</item>
+
+    </string-array>
+
+
+    <string-array name="image_mark_recycler_a">
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a5</item>
+        <item>a6</item>
+        <item>a7</item>
+        <item>a8</item>
+        <item>a9</item>
+        <item>a10</item>
+    </string-array>
+
+    <string-array name="image_mark_recycler_c">
+        <item>a21</item>
+        <item>a22</item>
+        <item>a23</item>
+        <item>a24</item>
+        <item>a25</item>
+        <item>a26</item>
+        <item>a27</item>
+        <item>a28</item>
+        <item>a29</item>
+
+
+    </string-array>
+
+
+    <string-array name="names_a">
+        <item>Сюжет 1</item>
+        <item>Сюжет 2</item>
+        <item>Сюжет 3</item>
+        <item>Сюжет 4</item>
+        <item>Сюжет 5</item>
+        <item>Сюжет 6</item>
+        <item>Сюжет 7</item>
+        <item>Сюжет 8</item>
+        <item>Сюжет 9</item>
+        <item>Сюжет 10</item>
+
+    </string-array>
+
+    <string-array name="names_b">
+        <item>Сюжет 11</item>
+        <item>Сюжет 12</item>
+        <item>Сюжет 13</item>
+        <item>Сюжет 14</item>
+        <item>Сюжет 15</item>
+        <item>Сюжет 16</item>
+        <item>Сюжет 17</item>
+        <item>Сюжет 18</item>
+        <item>Сюжет 19</item>
+        <item>Сюжет 20</item>
+
+    </string-array>
+
+    <string-array name="names_c">
+        <item>Сюжет 21</item>
+        <item>Сюжет 22</item>
+        <item>Сюжет 23</item>
+        <item>Сюжет 24</item>
+        <item>Сюжет 25</item>
+        <item>Сюжет 26</item>
+        <item>Сюжет 27</item>
+        <item>Сюжет 28</item>
+        <item>Сюжет 29</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="image_mark_database">
+        <item>a1</item>
+        <item>a1</item>
+        <item>a1</item>
+        <item>a1</item>
+        <item>a1</item>
+
+        <item>a2</item>
+        <item>a2</item>
+        <item>a2</item>
+        <item>a2</item>
+        <item>a2</item>
+
+        <item>a3</item>
+        <item>a3</item>
+        <item>a3</item>
+        <item>a3</item>
+        <item>a3</item>
+
+        <item>a4</item>
+        <item>a4</item>
+        <item>a4</item>
+        <item>a4</item>
+        <item>a4</item>
+
+        <item>a5</item>
+        <item>a5</item>
+        <item>a5</item>
+        <item>a5</item>
+        <item>a5</item>
+
+        <item>a6</item>
+        <item>a6</item>
+        <item>a6</item>
+        <item>a6</item>
+        <item>a6</item>
+
+        <item>a7</item>
+        <item>a7</item>
+        <item>a7</item>
+        <item>a7</item>
+        <item>a7</item>
+
+        <item>a8</item>
+        <item>a8</item>
+        <item>a8</item>
+        <item>a8</item>
+        <item>a8</item>
+
+        <item>a9</item>
+        <item>a9</item>
+        <item>a9</item>
+        <item>a9</item>
+        <item>a9</item>
+
+        <item>a10</item>
+        <item>a10</item>
+        <item>a10</item>
+        <item>a10</item>
+        <item>a10</item>
+
+        <item>a11</item>
+        <item>a11</item>
+        <item>a11</item>
+        <item>a11</item>
+        <item>a11</item>
+
+        <item>a12</item>
+        <item>a12</item>
+        <item>a12</item>
+        <item>a12</item>
+        <item>a12</item>
+
+        <item>a13</item>
+        <item>a13</item>
+        <item>a13</item>
+        <item>a13</item>
+        <item>a13</item>
+
+        <item>a14</item>
+        <item>a14</item>
+        <item>a14</item>
+        <item>a14</item>
+        <item>a14</item>
+
+        <item>a15</item>
+        <item>a15</item>
+        <item>a15</item>
+        <item>a15</item>
+        <item>a15</item>
+
+        <item>a16</item>
+        <item>a16</item>
+        <item>a16</item>
+        <item>a16</item>
+        <item>a16</item>
+
+        <item>a17</item>
+        <item>a17</item>
+        <item>a17</item>
+        <item>a17</item>
+        <item>a17</item>
+
+        <item>a18</item>
+        <item>a18</item>
+        <item>a18</item>
+        <item>a18</item>
+        <item>a18</item>
+
+        <item>a19</item>
+        <item>a19</item>
+        <item>a19</item>
+        <item>a19</item>
+        <item>a19</item>
+
+        <item>a20</item>
+        <item>a20</item>
+        <item>a20</item>
+        <item>a20</item>
+        <item>a20</item>
+
+        <item>a21</item>
+        <item>a21</item>
+        <item>a21</item>
+        <item>a21</item>
+        <item>a21</item>
+
+        <item>a22</item>
+        <item>a22</item>
+        <item>a22</item>
+        <item>a22</item>
+        <item>a22</item>
+
+        <item>a23</item>
+        <item>a23</item>
+        <item>a23</item>
+        <item>a23</item>
+        <item>a23</item>
+
+        <item>a24</item>
+        <item>a24</item>
+        <item>a24</item>
+        <item>a24</item>
+        <item>a24</item>
+
+        <item>a25</item>
+        <item>a25</item>
+        <item>a25</item>
+        <item>a25</item>
+        <item>a25</item>
+
+        <item>a26</item>
+        <item>a26</item>
+        <item>a26</item>
+        <item>a26</item>
+        <item>a26</item>
+
+        <item>a27</item>
+        <item>a27</item>
+        <item>a27</item>
+        <item>a27</item>
+        <item>a27</item>
+
+        <item>a28</item>
+        <item>a28</item>
+        <item>a28</item>
+        <item>a28</item>
+        <item>a28</item>
+
+        <item>a29</item>
+        <item>a29</item>
+        <item>a29</item>
+        <item>a29</item>
+        <item>a29</item>
+
+    </string-array>
+
+
+
+    <string-array name="_question">
+
+        <item>Сколько воздушных шаров на картинке?</item>
+        <item>На рисунке есть машинка?</item>
+        <item>Какая погода изображена на картинке?</item>
+        <item>Сколько всего домиков на рисунке?</item>
+        <item>На рисунке есть цыпленок?</item>
+
+        <item>Сколько всего детей на рисунке?</item>
+        <item>Что есть на детской площадке?</item>
+        <item>С чем играют мальчики?</item>
+        <item>Сколько девочек на площадке?</item>
+        <item>На рисунке есть  дерево?</item>
+
+        <item>Кто залез на спину медведю?</item>
+        <item>Вокруг чего собрались звери?</item>
+        <item>На рисунке есть олень?</item>
+        <item>Какого  цвета грибочки на картинке?</item>
+        <item>На рисунке есть волк?</item>
+
+        <item>На  рисунке изображены:</item>
+        <item>На картинке есть окно?</item>
+        <item>С кем играет девочка?</item>
+        <item>С кем играет мальчик?</item>
+        <item>Какого цвета занавески в комнате?</item>
+
+        <item>На картинке есть черепаха?</item>
+        <item>Кто катается на лодке?</item>
+        <item>Какого цвета лодка?</item>
+        <item>На рисунке есть  корова?</item>
+        <item>Какого цвета кепка мальчика?</item>
+
+        <item>Кто бежит рядом с девочкой?</item>
+        <item>На рисунке есть воздушный шар?</item>
+        <item>На рисунке есть ручей?</item>
+        <item>Какого цвета платье девочки?</item>
+        <item>Что несет девочка?</item>
+
+        <item>Кого нет на рисунке?</item>
+        <item>Сколько птичек нарисовано на картинке?</item>
+        <item>На рисунке есть речка?</item>
+        <item>Сколько пчелок на рисунке?</item>
+        <item>Кто есть на рисунке?</item>
+
+        <item>Что делает мальчик на картинке?</item>
+        <item>Сколько домиков на рисунке?</item>
+        <item>Сколько всего рыбок на картинке?</item>
+        <item>Какого цвета рубашка  мальчика?</item>
+        <item>На мальчике есть шляпа?</item>
+
+        <item>На картинке есть домик синего цвета?</item>
+        <item>На картинке  есть домик красного цвета?</item>
+        <item>Какое время года изображено?</item>
+        <item>На рисунке есть машина?</item>
+        <item>А есть мельница?</item>
+
+
+        <item>Какого цвета динозаврик вылупился из яйца?</item>
+        <item>На рисунке есть вулкан?</item>
+        <item>А есть на рисунке дерево?</item>
+        <item>Сколько всего динозавров изображено на картинке?</item>
+        <item>Кто на рисунке умеет летать?</item>
+
+        <item>Кто сидит на дереве?</item>
+        <item>На головах  зверей одеты:</item>
+        <item>Какого цвета подарочки падают с неба?</item>
+        <item>На рисунке есть змея?</item>
+        <item>Идет ли снег?</item>
+
+        <item>Какого цвета скатерть на столе?</item>
+        <item>На столе есть арбуз?</item>
+        <item>Что готовят мальчики?</item>
+        <item>Каких цетов футболки мальчиков?</item>
+        <item>Какой формы стол на рисунке?</item>
+
+        <item>Сколько домиков есть на картинке?</item>
+        <item>На рисунке есть свинка?</item>
+        <item>Сколько курочек есть на рисунке?</item>
+        <item>А есть лошадка на рисунке?</item>
+        <item>Сколько человек на картинке?</item>
+
+        <item>Какого цвета накидка девочки?</item>
+        <item>Кто из зверей есть на рисунке?</item>
+        <item>Сколько всего человек на картинке? </item>
+        <item>Кого нет на рисунке?</item>
+        <item>Есть ли цветы на рисунке?</item>
+
+        <item>Сколько человек на рисунке? </item>
+        <item>Что делают мальчики?</item>
+        <item>Какого цвета футболки мальчиков?</item>
+        <item>На рисунке есть кораблик?</item>
+        <item>Чего нет на рисунке?</item>
+
+
+        <item>Сколько нарисовано животных?</item>
+        <item>Кого нет на рисунке?</item>
+        <item>Что держит мишка в лапах?</item>
+        <item>На рисунке есть речка?</item>
+        <item>А горы есть на рисунке?</item>
+
+        <item>С чем играет котенок?</item>
+        <item>На рисунке есть краб?</item>
+        <item>Какого цвета ведёрко?</item>
+        <item>Чего нет на рисунке?</item>
+        <item>Какого цвета лопатка котика?</item>
+
+        <item>Кто такой человек на картинке?</item>
+        <item>На рисунке есть обезьяна?</item>
+        <item>Какое растение есть на картинке?</item>
+        <item>На рисунке есть крокодил?</item>
+        <item>Кто сидит на шляпе пирата?</item>
+
+        <item>Сколько животных нарисовано на картинке?</item>
+        <item>Что делают звери?</item>
+        <item>Какое изображено время года? </item>
+        <item>Кого нет на рисунке?</item>
+        <item>На рисунке есть грибы?</item>
+
+        <item>Сколько человек нарисовано на картинке?</item>
+        <item>Кого нет на рисунке?</item>
+        <item>Кто сидит на дереве?</item>
+        <item>На рисунке есть ёжик?</item>
+        <item>Сколко на рисунке домиков?</item>
+
+        <item>Какого цвета дом на рисунке?</item>
+        <item>На картинке есть трактор?</item>
+        <item>В небе летит самолет?</item>
+        <item>На рисунке есть кролик?</item>
+        <item>Что делают птицы на дереве?</item>
+
+
+        <item>Какого цвета будка собачки?</item>
+        <item>На чем сидит котик?</item>
+        <item>Какого цвета трактор?</item>
+        <item>Кого нет на рисунке?</item>
+        <item>Какого цвета домик?</item>
+
+        <item>Сколько всего животных на рисунке?</item>
+        <item>Кто играет на барабане?</item>
+        <item>Кого нет на рисунке?</item>
+        <item>Кто играет на скрипке?</item>
+        <item>На рисунке есть окно?</item>
+
+        <item>Сколько человек изображено на картинке?</item>
+        <item>Сколько воздушных шаров летит в небе?</item>
+        <item>На рисунке есть овечка?</item>
+        <item>Какого цета машина на картинке?</item>
+        <item>На рисунке есть лошадка?</item>
+
+        <item>На рисунке  есть дом?</item>
+        <item>На рисунке есть  мельница?</item>
+        <item>Кому на спину забрались животные?</item>
+        <item>Что у тети в корзине?</item>
+        <item>Какого цвета платье у тети?</item>
+
+
+        <item>Кто лепит снеговика?</item>
+        <item>Сколько собак на рисунке?</item>
+        <item>Что одевают  снеговику на голову?</item>
+        <item>Кто-то катается на лыжах?</item>
+        <item>Сколько всего детей изображено?</item>
+
+        <item>Каких цветов яблоки на деревьях?</item>
+        <item>На рисунке есть белка?</item>
+        <item>Сколько дереьев на картинке?</item>
+        <item>Кто самый большой  на картинке?</item>
+        <item>На рисунке есть озеро?</item>
+
+
+        <item>Сколько воздушных  шаров в небе?</item>
+        <item>Сколько  всего домов  нарисовано?</item>
+        <item>Кого нет на рисунке?</item>
+        <item>На рисунке есть гора?</item>
+        <item>Какого цвета крыша дома?</item>
+
+        <item>Сколько видов животных  на картинке? </item>
+        <item>Что  хочет стащить мышонок  со стола?</item>
+        <item>На рисунке есть бельчонок?</item>
+        <item>Что делают заец и зайчонок?</item>
+        <item>Какого цвета фартук у  гусыни?</item>
+
+
+
+
+
+
+    </string-array>
+
+    <string-array name="correct_answ">
+
+        <item>3</item>
+        <item>Да</item>
+        <item>Солнечно</item>
+        <item>2</item>
+        <item>Да</item>
+
+        <item>5</item>
+        <item>Горка</item>
+        <item>С мячом</item>
+        <item>2</item>
+        <item>Да</item>
+
+        <item>Лиса</item>
+        <item>Вокруг костра</item>
+        <item>Да</item>
+        <item>Красные с белыми точками</item>
+        <item>Нет</item>
+
+        <item>Мальчик и Девочка</item>
+        <item>Да</item>
+        <item>С собачкой</item>
+        <item>С котенком</item>
+        <item>Красного</item>
+
+        <item>Да</item>
+        <item>Мальчик с Девочкой</item>
+        <item>Коричневого</item>
+        <item>Да</item>
+        <item>Зеленого</item>
+
+        <item>Собачка</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Голубого</item>
+        <item>Корзинку</item>
+
+        <item>Волка</item>
+        <item>2</item>
+        <item>Нет</item>
+        <item>2</item>
+        <item>Медведь</item>
+
+        <item>Ловит рыбу</item>
+        <item>1</item>
+        <item>4</item>
+        <item>Красного</item>
+        <item>Да</item>
+
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Лето</item>
+        <item>Нет</item>
+        <item>Да</item>
+
+        <item>Красный с желтым</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>4</item>
+        <item>Стрекоза</item>
+
+        <item>Белка и Сова</item>
+        <item>Шапки</item>
+        <item>Красного</item>
+        <item>Да</item>
+        <item>Нет</item>
+
+        <item>Желтого</item>
+        <item>Нет</item>
+        <item>Салат</item>
+        <item>Зеленый с белым</item>
+        <item>Круглый</item>
+
+        <item>2</item>
+        <item>Нет</item>
+        <item>2</item>
+        <item>Да</item>
+        <item>1</item>
+
+        <item>Красного</item>
+        <item>Волк</item>
+        <item>3</item>
+        <item>Дедушки</item>
+        <item>Нет</item>
+
+        <item>2</item>
+        <item>Съезжают с горки</item>
+        <item>Белого</item>
+        <item>Нет</item>
+        <item>Краба</item>
+
+        <item>3</item>
+        <item>Тигра</item>
+        <item>Подарок</item>
+        <item>Нет</item>
+        <item>Да</item>
+
+        <item>С лопаткой и ведерком</item>
+        <item>Да</item>
+        <item>Зеленого</item>
+        <item>Самолетика</item>
+        <item>Розового</item>
+
+        <item>Пират</item>
+        <item>Нет</item>
+        <item>Пальма</item>
+        <item>Да</item>
+        <item>Попугай</item>
+
+        <item>3</item>
+        <item>Играют музыку</item>
+        <item>Осень</item>
+        <item>Медведя</item>
+        <item>Да</item>
+
+        <item>Ниодного</item>
+        <item>Лошадки</item>
+        <item>Сова</item>
+        <item>Да</item>
+        <item>Ниодного</item>
+
+        <item>Желтого</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Кормят птенцов</item>
+
+        <item>Красного</item>
+        <item>На бочке?</item>
+        <item>Синего</item>
+        <item>Тигренка</item>
+        <item>Красного</item>
+
+        <item>5</item>
+        <item>Сова</item>
+        <item>Ежика</item>
+        <item>Заец</item>
+        <item>Нет</item>
+
+
+        <item>2</item>
+        <item>Ниодного</item>
+        <item>Да</item>
+        <item>Нет машины на рисунке</item>
+        <item>Да</item>
+
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Корове</item>
+        <item>Яблоки</item>
+        <item>Розового</item>
+
+
+        <item>Мальчик и девочка?</item>
+        <item>2</item>
+        <item>Шляпу</item>
+        <item>Нет</item>
+        <item>5</item>
+
+        <item>Красные и желтые</item>
+        <item>Да</item>
+        <item>3</item>
+        <item>Лиса</item>
+        <item>Нет</item>
+
+
+        <item>3</item>
+        <item>1</item>
+        <item>Панды</item>
+        <item>Нет</item>
+        <item>Синего</item>
+
+        <item>3</item>
+        <item>Конфету</item>
+        <item>Нет</item>
+        <item>Тесто</item>
+        <item>Желтый</item>
+
+
+
+
+    </string-array>
+
+
+    <string-array name="_incor1">
+
+        <item>2</item>
+        <item>Нет</item>
+        <item>Идет дождь</item>
+        <item>3</item>
+        <item>Нет</item>
+
+        <item>4</item>
+        <item>Качели</item>
+        <item>С машинками</item>
+        <item>3</item>
+        <item>Нет</item>
+
+        <item>Енот</item>
+        <item>Вокруг телевизора</item>
+        <item>Нет</item>
+        <item>Корчневые</item>
+        <item>Да</item>
+
+        <item>Два  мальчика</item>
+        <item>Нет</item>
+        <item>С хомячком</item>
+        <item>С собачкой</item>
+        <item>Синего</item>
+
+        <item>Нет</item>
+        <item>Мальчик с бабушкой</item>
+        <item>Красного</item>
+        <item>Нет</item>
+        <item>Синего</item>
+
+        <item>Мальчик</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Красного</item>
+        <item>Ведерко</item>
+
+        <item>Медедя</item>
+        <item>3</item>
+        <item>Да</item>
+        <item>1</item>
+        <item>Слон</item>
+
+        <item>Пускает кораблик</item>
+        <item>2</item>
+        <item>2</item>
+        <item>Зеленого</item>
+        <item>Нет</item>
+
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Осень</item>
+        <item>Да</item>
+        <item>Нет</item>
+
+        <item>Синий</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>5</item>
+        <item>Птичка</item>
+
+        <item>Сова и Ворона</item>
+        <item>Кепки</item>
+        <item>Зеленого</item>
+        <item>Нет</item>
+        <item>Да</item>
+
+        <item>Красного</item>
+        <item>Да</item>
+        <item>Торт</item>
+        <item>Синий с красным</item>
+        <item>Квадратный</item>
+
+        <item>3</item>
+        <item>Да</item>
+        <item>3</item>
+        <item>Нет</item>
+        <item>2</item>
+
+        <item>Синего</item>
+        <item>Медедь</item>
+        <item>2</item>
+        <item>Бабушки</item>
+        <item>Да</item>
+
+        <item>1</item>
+        <item>Делают пасочки</item>
+        <item>Синего</item>
+        <item>Да</item>
+        <item>Морской звезды</item>
+
+        <item>2</item>
+        <item>Жирафа</item>
+        <item>Цветы</item>
+        <item>Да</item>
+        <item>Нет</item>
+
+        <item>С мячом</item>
+        <item>Нет</item>
+        <item>Коричневого</item>
+        <item>Острова</item>
+        <item>Голубого</item>
+
+        <item>Доктор</item>
+        <item>Да</item>
+        <item>Цветок</item>
+        <item>Нет</item>
+        <item>Обезьяна</item>
+
+        <item>2</item>
+        <item>Танцуют</item>
+        <item>Лето</item>
+        <item>Оленя</item>
+        <item>Нет</item>
+
+        <item>1</item>
+        <item>Медведя</item>
+        <item>Белка</item>
+        <item>Нет</item>
+        <item>1</item>
+
+        <item>Синего</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Вьют гнездо</item>
+
+        <item>Зеленого</item>
+        <item>На камне</item>
+        <item>Красного</item>
+        <item>Коровки</item>
+        <item>Синего</item>
+
+        <item>4</item>
+        <item>Жираф</item>
+        <item>Зайца</item>
+        <item>Медведь</item>
+        <item>Да</item>
+
+
+        <item>1</item>
+        <item>Один</item>
+        <item>Нет</item>
+        <item>Красного</item>
+        <item>Нет</item>
+
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Свинье</item>
+        <item>Клубника</item>
+        <item>Белого</item>
+
+
+        <item>Два мальчика</item>
+        <item>3</item>
+        <item>Ведро</item>
+        <item>Да</item>
+        <item>4</item>
+
+        <item>Желтые и зеленые</item>
+        <item>Нет</item>
+        <item>3</item>
+        <item>Медведь</item>
+        <item>Да</item>
+
+
+        <item>4</item>
+        <item>2</item>
+        <item>Белки</item>
+        <item>Да</item>
+        <item>Зеленого</item>
+
+        <item>4</item>
+        <item>Печенье</item>
+        <item>Да</item>
+        <item>Пирог</item>
+        <item>Красный</item>
+
+
+
+
+    </string-array>
+
+    <string-array name="_incor2">
+
+        <item>1</item>
+        <item>ttt</item>
+        <item>Пасмурно</item>
+        <item>1</item>
+        <item>ttt</item>
+
+        <item>6</item>
+        <item>Карусель</item>
+        <item>Они играют в прятки</item>
+        <item>1</item>
+        <item>ttt</item>
+
+        <item>Ежик</item>
+        <item>Вокруг стола</item>
+        <item>ttt</item>
+        <item>Зеленые</item>
+        <item>ttt</item>
+
+        <item>Две девочки</item>
+        <item>ttt</item>
+        <item>С кроликом</item>
+        <item>ttt</item>
+        <item>Зеленого</item>
+
+        <item>ttt</item>
+        <item>Девочка с мамой</item>
+        <item>Зеленого</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>Котик</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Зеленого</item>
+        <item>Сумку</item>
+
+        <item>Лисицы</item>
+        <item>1</item>
+        <item>ttt</item>
+        <item>3</item>
+        <item>Тигр</item>
+
+        <item>Ловит бабочек</item>
+        <item>3</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Весна</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>Зеленый с синим</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>3</item>
+        <item>ttt</item>
+
+        <item>Змея и Ворона</item>
+        <item>Ничего</item>
+        <item>Синего</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>Серого</item>
+        <item>ttt</item>
+        <item>Мясо</item>
+        <item>Зеленый с красным</item>
+        <item>ttt</item>
+
+        <item>1</item>
+        <item>ttt</item>
+        <item>1</item>
+        <item>ttt</item>
+        <item>3</item>
+
+        <item>Зеленого</item>
+        <item>Лиса</item>
+        <item>4</item>
+        <item>Охотника</item>
+        <item>ttt</item>
+
+        <item>3</item>
+        <item>Играют в мяч</item>
+        <item>Зеленого</item>
+        <item>ttt</item>
+        <item>Ракушки</item>
+
+        <item>4</item>
+        <item>Медведя</item>
+        <item>Торт</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>С куклой</item>
+        <item>ttt</item>
+        <item>Синего</item>
+        <item>Кораблика</item>
+        <item>ttt</item>
+
+        <item>Пожарник</item>
+        <item>ttt</item>
+        <item>Кустик</item>
+        <item>ttt</item>
+        <item>Никто не сидит</item>
+
+        <item>4</item>
+        <item>Поют</item>
+        <item>Зима</item>
+        <item>Орла</item>
+        <item>ttt</item>
+
+        <item>2</item>
+        <item>Лисицы</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>2</item>
+
+        <item>Зеленого</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>Синего</item>
+        <item>На дереве</item>
+        <item>Зеленого</item>
+        <item>Мышонка</item>
+        <item>Коричневого</item>
+
+
+        <item>6</item>
+        <item>Заяц</item>
+        <item>Медведя</item>
+        <item>Лось</item>
+        <item>ttt</item>
+
+        <item>2</item>
+        <item>Два</item>
+        <item>ttt</item>
+        <item>Белого</item>
+        <item>ttt</item>
+
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Лошади</item>
+        <item>Морковь</item>
+        <item>Синего</item>
+
+        <item>Две девочки</item>
+        <item>4</item>
+        <item>Кепку</item>
+        <item>ttt</item>
+        <item>6</item>
+
+
+        <item>Зеленые и желтые</item>
+        <item>ttt</item>
+        <item>1</item>
+        <item>Слон</item>
+        <item>ttt</item>
+
+        <item>2</item>
+        <item>3</item>
+        <item>Совы</item>
+        <item>ttt</item>
+        <item>Красного</item>
+
+
+        <item>5</item>
+        <item>Ложку</item>
+        <item>ttt</item>
+        <item>Фруктовый салат</item>
+        <item>Фиолетовый</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </string-array>
+
+    <string-array name="_incor3">
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Идет снег</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>5</item>
+        <item>Собаки</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Весна</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Свинки</item>
+        <item>ttt</item>
+
+        <item>7</item>
+        <item>ttt</item>
+        <item>Лисички</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Бегемоту</item>
+        <item>ttt</item>
+        <item>Зеленого</item>
+
+
+        <item>Мальчик</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Черепаха</item>
+        <item>ttt</item>
+
+
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Змеи</item>
+        <item>ttt</item>
+        <item>ttt</item>
+
+        <item>6</item>
+        <item>Яблоко</item>
+        <item>ttt</item>
+        <item>ttt</item>
+        <item>Голубой</item>
+
+
+
+
+
+
+
+
+
+
+
+    </string-array>
+
+
+</resources>
+
+
+
+<!--<item>Сколько животных изображено на картинке?</item>-->
+<!--<item>Кого нет на рисунке?</item>-->
+<!--<item>Кто забрался выше всех? </item>-->
+<!--<item>Что падает с неба?</item>-->
+<!--<item>В какие шапки одеты звери?</item>-->
+
+<!--<item>Какого цвета бантик у девочки?</item>-->
+<!--<item>Сколько дереьев изображено на картинке?</item>-->
+<!--<item>Что несет девочка?</item>-->
+<!--<item>Какого цвета платье девочки? </item>-->
+<!--<item>Сколько грибов на картинке?</item>-->
+
+<!--<item>Сколько облаков на небе?</item>-->
+<!--<item>Кого нет на рисунке? </item>-->
+<!--<item>Сколько домиков изображено на картинке?</item>-->
+<!--<item>Какого цвета штаны фермера?</item>-->
+<!--<item>Какого цета  нос у собачки?</item>-->
+
+<!--<item>Кто забрался на дерево?</item>-->
+<!--<item>Какого цвета накидка девочки?</item>-->
+<!--<item>Кого нет на рисунке?</item>-->
+<!--<item>Сколько человек изображено на картинке?</item>-->
+<!--<item>Что в руках у девочки?</item>-->
+
+<!--<item>Сколько пальм на картинке?</item>-->
+<!--<item>Что нарисовано на футоболках у мальчиков?</item>-->
+<!--<item>Какого  цвета ведерко на рисунке?</item>-->
+<!--<item>Чего нет на картинке?</item>-->
+<!--<item>Каких  цветов мячик?</item>-->
+
+<!--<item>Кого нет на картинке?</item>-->
+<!--<item>Сколько всего животных нарисовано? </item>-->
+<!--<item>Какого цвета цеты есть на  рисунке?</item>-->
+<!--<item>Что держит мишка  лапах?</item>-->
+<!--<item>Что  есть на картинке?</item>-->
+
+<!--<item>Сколько пасочек есть на рисунке?</item>-->
+<!--<item>Чего нет на картинке?</item>-->
+<!--<item>Какого цвета лопатка?</item>-->
+<!--<item>Что еще есть на рисунке? </item>-->
+<!--<item>Кого нет на картинке?</item>-->
+
+<!--<item>Кто сидит у пирата на шляпе?</item>-->
+<!--<item>Кто изображен рядом  с пиратом?</item>-->
+<!--<item>Что растет на пальме</item>-->
+<!--<item>Что есть на рисунке?</item>-->
+<!--<item>Какого цвета рубашка у пирата?</item>-->
+
+<!--<item>Какое время года изображено на картинке?</item>-->
+<!--<item>Сколько животных на рисунке?</item>-->
+<!--<item>Кого нет на рисунке?</item>-->
+<!--<item>Что есть на картинке?</item>-->
+<!--<item>На чем играет орел?</item>-->
+
+<!--<item>Кто сидит на дереве?</item>-->
+<!--<item>Сколько человек на картинке?</item>-->
+<!--<item>Какого цвета шапка у медведя?</item>-->
+<!--<item>Сколько всего грибочков нарисовано?</item>-->
+<!--<item>Сколько улиток есть на картинке?</item>-->
+
+
+    <!--</string-array>-->
+
+<!--<string-array name="correct_answ">-->
+<!--<item>6</item>-->
+<!--<item>Волка</item>-->
+<!--<item>Сова</item>-->
+<!--<item>Подарки</item>-->
+<!--<item>В шапки Деда мороза</item>-->
+
+<!--<item>Красного</item>-->
+<!--<item>Одно</item>-->
+<!--<item>Корзину</item>-->
+<!--<item>Голубого</item>-->
+<!--<item>2</item>-->
+
+<!--<item>4</item>-->
+<!--<item>Котика</item>-->
+<!--<item>2</item>-->
+<!--<item>Голубого</item>-->
+<!--<item>Розового</item>-->
+
+<!--<item>Волк</item>-->
+<!--<item>Красного</item>-->
+<!--<item>Медведя</item>-->
+<!--<item>3</item>-->
+<!--<item>Корзинка</item>-->
+
+<!--<item>4</item>-->
+<!--<item>Солнце</item>-->
+<!--<item>Красного</item>-->
+<!--<item>Краба</item>-->
+<!--<item>Красный с белым</item>-->
+
+<!--<item>Тигра</item>-->
+<!--<item>3</item>-->
+<!--<item>Белого</item>-->
+<!--<item>Зеленый  подарок</item>-->
+<!--<item>Горы</item>-->
+
+<!--<item>5</item>-->
+<!--<item>Морской  звезды</item>-->
+<!--<item>Розового</item>-->
+<!--<item>Остров и кораблик</item>-->
+<!--<item>Попугая</item>-->
+
+<!--<item>Попугай</item>-->
+<!--<item>Крокодил</item>-->
+<!--<item>Кокосы</item>-->
+<!--<item>Вулкан</item>-->
+<!--<item>Красного</item>-->
+
+<!--<item>Осень</item>-->
+<!--<item>3</item>-->
+<!--<item>Медведя</item>-->
+<!--<item>Грибы</item>-->
+<!--<item>На арфе</item>-->
+
+<!--<item>Сова</item>-->
+<!--<item>Ниодного</item>-->
+<!--<item>Он без шапки</item>-->
+<!--<item>2</item>-->
+<!--<item>1</item>-->
+
+<!--<item>3</item>-->
+<!--<item>Да</item>-->
+<!--<item>Солнечно</item>-->
+<!--<item>2</item>-->
+<!--<item>Да</item>-->
+
+<!--<item>5</item>-->
+<!--<item>Горка</item>-->
+<!--<item>С мячом</item>-->
+<!--<item>2</item>-->
+<!--<item>Да</item>-->
+
+
+<!--<item>Лиса</item>-->
+<!--<item>Вокруг костра</item>-->
+<!--<item>Да</item>-->
+<!--<item>Красные с белыми точками</item>-->
+<!--<item>Нет</item>-->
+
+<!--<item>Мальчик и Девочка</item>-->
+<!--<item>Да</item>-->
+<!--<item>С собачкой</item>-->
+<!--<item>С котенком</item>-->
+<!--<item>Красного</item>-->
+
+<!--<item>Да</item>-->
+<!--<item>Мальчик с Девочкой</item>-->
+<!--<item>Коричневого</item>-->
+<!--<item>Да</item>-->
+<!--<item>Зеленого</item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+<!--</string-array>-->
+
+
+<!--<string-array name="_incor1">-->
+<!--<item>5</item>-->
+<!--<item>Медведя</item>-->
+<!--<item>Белка</item>-->
+<!--<item>Снег</item>-->
+<!--<item>Синие</item>-->
+
+<!--<item>Синего</item>-->
+<!--<item>Два</item>-->
+<!--<item>Сумку</item>-->
+<!--<item>Красного</item>-->
+<!--<item>1</item>-->
+
+<!--<item>3</item>-->
+<!--<item>Собачки</item>-->
+<!--<item>3</item>-->
+<!--<item>Красного</item>-->
+<!--<item>Красного</item>-->
+
+<!--<item>Медведь</item>-->
+<!--<item>Зеленого</item>-->
+<!--<item>Волка</item>-->
+<!--<item>2</item>-->
+<!--<item>Сумочка</item>-->
+
+<!--<item>3</item>-->
+<!--<item>Самолет</item>-->
+<!--<item>Зеленого</item>-->
+<!--<item>Морской звезды</item>-->
+<!--<item>Красный с синим</item>-->
+
+<!--<item>Жирафа</item>-->
+<!--<item>4</item>-->
+<!--<item>Красного</item>-->
+<!--<item>Синий подарок</item>-->
+<!--<item>Речка</item>-->
+
+<!--<item>4</item>-->
+<!--<item>Краба</item>-->
+<!--<item>Синего</item>-->
+<!--<item>Только остров</item>-->
+<!--<item>Осминога</item>-->
+
+<!--<item>Обезьяна</item>-->
+<!--<item>Дельфин</item>-->
+<!--<item>Бананы</item>-->
+<!--<item>Гора</item>-->
+<!--<item>Синего</item>-->
+
+<!--<item>Лето</item>-->
+<!--<item>4</item>-->
+<!--<item>Оленя</item>-->
+<!--<item>Яблоки</item>-->
+<!--<item>На барабане</item>-->
+
+<!--<item>Белка</item>-->
+<!--<item>Два</item>-->
+<!--<item>Красного</item>-->
+<!--<item>3</item>-->
+<!--<item>2</item>-->
+
+<!--<item>2</item>-->
+<!--<item>Нет</item>-->
+<!--<item>Идет дождь</item>-->
+<!--<item>3</item>-->
+<!--<item>Нет</item>-->
+
+<!--<item>4</item>-->
+<!--<item>Качели</item>-->
+<!--<item>С машинками</item>-->
+<!--<item>3</item>-->
+<!--<item>Нет</item>-->
+
+<!--<item>Енот</item>-->
+<!--<item>Вокруг телевизора</item>-->
+<!--<item>Нет</item>-->
+<!--<item>Корчневые</item>-->
+<!--<item>Да</item>-->
+
+<!--<item>Два  мальчика</item>-->
+<!--<item>Нет</item>-->
+<!--<item>С хомячком</item>-->
+<!--<item>С собачкой</item>-->
+<!--<item>Синего</item>-->
+
+<!--<item>Нет</item>-->
+<!--<item>Мальчик с бабушкой</item>-->
+<!--<item>Красного</item>-->
+<!--<item>Нет</item>-->
+<!--<item>Синего</item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+
+
+
+
+
+
+
+<!--</string-array>-->
+
+<!--<string-array name="_incor2">-->
+<!--<item>ttt</item>-->
+<!--<item>Змеи</item>-->
+<!--<item>ttt</item>-->
+<!--<item>Конфеты</item>-->
+<!--<item>Белые</item>-->
+
+<!--<item>Розового</item>-->
+<!--<item>Три</item>-->
+<!--<item>Портфель</item>-->
+<!--<item>Зеленого</item>-->
+<!--<item>3</item>-->
+
+<!--<item>5</item>-->
+<!--<item>Коровки</item>-->
+<!--<item>1</item>-->
+<!--<item>Розового</item>-->
+<!--<item>Черного</item>-->
+
+<!--<item>Охотник</item>-->
+<!--<item>Синего</item>-->
+<!--<item>Бабушки</item>-->
+<!--<item>4</item>-->
+<!--<item>Ведерко</item>-->
+
+<!--<item>5</item>-->
+<!--<item>Цветок</item>-->
+<!--<item>Синего</item>-->
+<!--<item>Ракушек</item>-->
+<!--<item>Желтый с белым</item>-->
+
+<!--<item>Медведя</item>-->
+<!--<item>2</item>-->
+<!--<item>Голубого</item>-->
+<!--<item>Торт</item>-->
+<!--<item>Самолет</item>-->
+
+<!--<item>3</item>-->
+<!--<item>Коктейля</item>-->
+<!--<item>Желтого</item>-->
+<!--<item>Только кораблик</item>-->
+<!--<item>Морского конька</item>-->
+
+<!--<item>Чайка</item>-->
+<!--<item>Акула</item>-->
+<!--<item>Ананасы</item>-->
+<!--<item>Пиратская крепость</item>-->
+<!--<item>Зеленого</item>-->
+
+<!--<item>Весна</item>-->
+<!--<item>5</item>-->
+<!--<item>Енота</item>-->
+<!--<item>Ягоды</item>-->
+<!--<item>Он  поёт</item>-->
+
+<!--<item>Ворона</item>-->
+<!--<item>Три</item>-->
+<!--<item>Синего</item>-->
+<!--<item>1</item>-->
+<!--<item>3</item>-->
+
+<!--<item>1</item>-->
+<!--<item>ttt</item>-->
+<!--<item>Пасмурно</item>-->
+<!--<item>1</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item>6</item>-->
+<!--<item>Карусель</item>-->
+<!--<item>Они играют в прятки</item>-->
+<!--<item>1</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item>Ежик</item>-->
+<!--<item>Вокруг стола</item>-->
+<!--<item>ttt</item>-->
+<!--<item>Зеленые</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item>Две девочки</item>-->
+<!--<item>ttt</item>-->
+<!--<item>С кроликом</item>-->
+<!--<item>ttt</item>-->
+<!--<item>Зеленого</item>-->
+
+<!--<item>ttt</item>-->
+<!--<item>Девочка с мамой</item>-->
+<!--<item>Зеленого</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+
+
+
+
+<!--</string-array>-->
+
+<!--<string-array name="_incor3">-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>Шапки Деда Мороза</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item>Зеленого</item>-->
+<!--<item>Ниодного</item>-->
+<!--<item>Ничего</item>-->
+<!--<item>Белого</item>-->
+<!--<item>Ниодного</item>-->
+
+<!--<item>2</item>-->
+<!--<item>Курочки</item>-->
+<!--<item>Ниодного</item>-->
+<!--<item>Зеленого</item>-->
+<!--<item>Коричневого</item>-->
+
+<!--<item>Сова</item>-->
+<!--<item>Голубого</item>-->
+<!--<item>Охотника</item>-->
+<!--<item>5</item>-->
+<!--<item>Ружье</item>-->
+
+<!--<item>2</item>-->
+<!--<item>Машинка</item>-->
+<!--<item>Коричневого</item>-->
+<!--<item>Лопатки</item>-->
+<!--<item>Зеленый с красным</item>-->
+
+<!--<item>Собаки</item>-->
+<!--<item>5</item>-->
+<!--<item>Оранжевого</item>-->
+<!--<item>Букет цветов</item>-->
+<!--<item>Воздушный шар</item>-->
+
+<!--<item>6</item>-->
+<!--<item>Мяча</item>-->
+<!--<item>Фиолетового</item>-->
+<!--<item>Ничего</item>-->
+<!--<item>Рыбки</item>-->
+
+<!--<item>Никто</item>-->
+<!--<item>Огромный краб</item>-->
+<!--<item>Арбузы</item>-->
+<!--<item>Огромный кит</item>-->
+<!--<item>Черного</item>-->
+
+<!--<item>Зима</item>-->
+<!--<item>2</item>-->
+<!--<item>Орла</item>-->
+<!--<item>Орехи</item>-->
+<!--<item>На гитаре</item>-->
+
+<!--<item>Божья коровка</item>-->
+<!--<item>Один</item>-->
+<!--<item>Белого</item>-->
+<!--<item>Ниодного</item>-->
+<!--<item>Ниодной</item>-->
+
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>Идет снег</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+<!--<item>ttt</item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+<!--<item></item>-->
+
+
+<!--</string-array>-->
+
+

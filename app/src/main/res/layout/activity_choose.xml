@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choose"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_coose"
+    tools:context="com.xebeche1986.rusliakov.xeb_for_kids.activities.ChooseActivity"
+    android:weightSum="1">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        card_view:cardCornerRadius="15dp"
+        card_view:cardElevation="11dp"
+        android:id="@+id/cv_easy"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="37dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dream_bcg"
+            android:scaleType="fitXY"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/easy_tw"
+            android:text="@string/easy"
+            android:textSize="25sp"
+            android:textColor="#ffea1a"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        card_view:cardCornerRadius="15dp"
+        card_view:cardElevation="11dp"
+        android:id="@+id/cv_medium"
+
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dream_bcg"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium"
+            android:id="@+id/medium_tw"
+            android:textSize="25sp"
+            android:textColor="#ffea1a"
+
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                  android:layout_gravity="center"
+
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        card_view:cardCornerRadius="15dp"
+        card_view:cardElevation="11dp"
+        android:id="@+id/cv_hard"
+
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dream_bcg"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hard"
+            android:id="@+id/hard_tw"
+            android:textSize="25sp"
+            android:textColor="#ffea1a"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        android:id="@+id/imageView" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="center">
+
+       <TextView
+           android:layout_height="wrap_content"
+           android:text="Об Игре"
+           android:id="@+id/about"
+           android:textSize="25sp"
+           android:textColor="#ffea1a"
+           android:layout_width="wrap_content"
+           android:layout_marginTop="25dp" />
+
+   </LinearLayout>
+
+
+</LinearLayout>
+
+
+<!--<LinearLayout-->
+<!--android:layout_width="180dp"-->
+<!--android:layout_height="match_parent"-->
+    <!--&gt;-->
+<!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/star"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginLeft="18dp"-->
+
+    <!--/>-->
+<!--</LinearLayout>-->

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    card_view:cardBackgroundColor="#99f0f0f0"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="6dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="fgfgdfg"
+                android:textColor="#0099cc"
+                android:gravity="center"
+                android:id="@+id/item_tv_name"
+                android:paddingBottom="5dp" />
+
+            <TextView
+            android:gravity="start"
+            android:id="@+id/tw_difficulty"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:background="#00000000"
+            android:textColor="#00000000"
+            />
+
+            <TextView
+                android:gravity="start"
+                android:id="@+id/tw_img_mark"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:background="#00000000"
+                android:textColor="#00000000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="12dp"
+                android:layout_marginLeft="5dp"
+                card_view:cardBackgroundColor="#99f0f0f0"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zast_5"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/recycler_image"
+                    android:background="@drawable/img_rounded"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/listitemrating"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:scaleX="1.0"-->
+    <!--android:scaleY="1.0"-->
+    <!--android:rating="3"-->
+    <!--android:numStars="3"-->
+    <!--android:transformPivotX="0dp"-->
+    <!--android:transformPivotY="0dp"-->
+    <!--style="?android:attr/ratingBarStyleSmall"-->
+
+    <!--/>-->
